@@ -239,3 +239,31 @@ main {
         margin: 10vh auto;
     }
 }
+
+@media screen and (max-width: 600px){
+    .robo{
+        height: 94%;
+        z-index: 1;
+        position: absolute;
+        left: -57%;
+        top: 15%;
+        width: 312%;
+    }
+    .estatisticas{
+        position: absolute;
+        width: 18rem;
+        top: 35rem;
+        left: 3rem;
+    }
+    .montador-conteudo{
+        position: absolute;
+        top: 65rem;
+        left: 1rem;
+    }
+    .producao{
+        position: absolute;
+        top: -1rem;
+        left: 4rem;
+
+    }
+}
